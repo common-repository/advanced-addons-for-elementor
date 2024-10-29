@@ -1,0 +1,46 @@
+/*-----------------------------------------------
+    // Client Slider
+-----------------------------------------------*/
+.advanced_addons_clint_block.type-1 .single_item .block-image { padding: 50px 0; text-align: center; border-right: 1px solid #eeeeee; }
+.advanced_addons_clint_block.type-1 .single_item .block-image img { display: inline-block; }
+.advanced_addons_clint_block.type-1 .single_item:first-child .block-image { border-bottom: 1px solid #eeeeee; }
+.advanced_addons_clint_block.type-1 .single_item .block-image:last-child { border-right: 0; }
+/*-------------------------------------------
+    // Clients
+-------------------------------------------*/
+.advanced_addons_clients.type-2 .item-image { padding: 30px 15px !important; border-radius: 9px; }
+.advanced_addons_clients.type-2 .slick-slide { padding: 0 15px; }
+/*-----------------------------------
+    // Clients Type 3
+-----------------------------------*/
+.advanced_addons_clients_area.type-3 { position: relative; }
+.advanced_addons_clients.type-3 { display: flex; flex-wrap: wrap; }
+.advanced_addons_clients.type-3 .single_item { flex: 0 0 20%; text-align: center; display: inline-flex; align-items: center; justify-content: center; position: relative; padding: 20px 20px; }
+.advanced_addons_clients.type-3 .single_item::before { content: ""; right: 0; top: 0; border-top: 2px solid #533169; border-right: 2px solid #533169; height: 0; width: 0; position: absolute; transition: all .30s linear; }
+.advanced_addons_clients.type-3 .single_item::after { content: ""; position: absolute; left: 0; bottom: 0; border-left: 2px solid #533169; border-bottom: 2px solid #533169; height: 0; width: 0; transition: all .30s linear; }
+.advanced_addons_clients.type-3 .single_item:hover::before, .advanced_addons_clients.type-3 .single_item:hover::after { height: 38px; width: 38px; }
+.advanced_addons_clients_area.type-3::before { content: ""; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background: rgba(0, 0, 18, .30); }
+/*----------------------------------------
+    // Clients type - 4
+----------------------------------------*/
+.advanced_addons_clint_area.type-4::before { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #a616ff; background: -moz-linear-gradient(-45deg, #a616ff 0%, #524bff 100%); background: -webkit-linear-gradient(-45deg, #a616ff 0%, #524bff 100%); background: linear-gradient(135deg, #a616ff 0%, #524bff 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a616ff', endColorstr='#524bff', GradientType=1); opacity: .90; }
+.advanced_addons_clint_block.type-1.bg-image.grad .single_item .block-image { border-color: rgba(255, 255, 255, .15); border-width: 2px; transition: all .30s linear; }
+.advanced_addons_clint_block.type-1.bg-image.grad .single_item .block-image:hover { box-shadow: 0 0 10px rgba(0, 0, 0, .15); }
+
+/*----------------------------------------------
+	// Responsive css
+----------------------------------------------*/
+
+@media (max-width: 767px){
+	.advanced_addons_clint_block.type-1 .single_item .block-image:last-child {
+	    border-bottom: 0;
+	}
+	.advanced_addons_clint_block.type-1 .single_item .block-image {
+	    border-right: 0;
+	}
+}
+@media (max-width: 576px){
+	.advanced_addons_clients.type-3 .single_item {
+	    flex: 0 0 100%;
+	}
+}

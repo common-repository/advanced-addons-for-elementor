@@ -1,0 +1,192 @@
+/*-----------------------------------------
+    // Alert css
+-----------------------------------------*/
+.advanced_addons_alert {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.advanced_addons_alert span i {
+    font-size: 16px;
+}
+.advanced_addons_alert.advanced_addons_primary span i {
+    color: #31708f;
+}
+
+.advanced_addons_alert span {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advanced_addons_alert.advanced_addons_primary span{
+    background: #e4f4fb;
+}
+
+.advanced_addons_primary.advanced_addons_alert_bordered {
+    border: 1px solid #d5ebf5;
+}
+
+.advanced_addons_alert p {
+    margin-bottom: 0;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.advanced_addons_alert p
+ strong {
+    letter-spacing: 1px;
+}
+
+.advanced_addons_alert.advanced_addons_primary  p {
+    color: #5389a4;
+}
+.advanced_addons_alert.advanced_addons_primary  strong {
+    color: #31708f;
+}
+
+.advanced_addons_alert.advanced_addons_success span i{
+    color: #3c763d;
+}
+.advanced_addons_alert.advanced_addons_success span{
+    background: #eef8ee;
+}
+.advanced_addons_success.advanced_addons_alert_bordered{
+    border: 1px solid #daf1da;
+}
+.advanced_addons_alert.advanced_addons_success  p {
+    color: #5b935b;
+}
+.advanced_addons_alert.advanced_addons_success  strong{
+    color: #3c763d;
+}
+.advanced_addons_alert.advanced_addons_warning span i{
+    color: #8a6d3b;
+}
+.advanced_addons_alert.advanced_addons_warning span{
+    background: #f6f1e8;
+}
+.advanced_addons_warning.advanced_addons_alert_bordered{
+    border: 1px solid #f6efe3;
+}
+.advanced_addons_alert.advanced_addons_warning  p {
+    color: #9c7f4c;
+}
+.advanced_addons_alert.advanced_addons_warning  strong{
+    color: #8a6d3b;
+}
+
+.advanced_addons_alert.advanced_addons_danger span i{
+    color: #a94442;
+}
+.advanced_addons_alert.advanced_addons_danger span{
+    background: #f6e5e5;
+}
+.advanced_addons_danger.advanced_addons_alert_bordered{
+    border: 1px solid #f7e7e7;
+}
+.advanced_addons_alert.advanced_addons_danger  p {
+    color: #b85d5b;
+}
+.advanced_addons_alert.advanced_addons_danger strong{
+    color: #a94442;
+}
+
+/*---------------------------------------
+// Gradient Blocks
+---------------------------------------*/
+.advanced_addons_alert.advanced_addons_primary.advanced_addons_alert_grad {
+    background: #ade6ff;
+    background: -moz-linear-gradient(top,  #ade6ff 0%, #e4f9fb 100%);
+    background: -webkit-linear-gradient(top,  #ade6ff 0%,#e4f9fb 100%);
+    background: linear-gradient(to bottom,  #ade6ff 0%,#e4f9fb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ade6ff', endColorstr='#e4f9fb',GradientType=0 );
+}
+
+.advanced_addons_alert.advanced_addons_success.advanced_addons_alert_grad {
+    background: #c5f9c5;
+    background: -moz-linear-gradient(top,  #c5f9c5 0%, #eef8ee 100%);
+    background: -webkit-linear-gradient(top,  #c5f9c5 0%,#eef8ee 100%);
+    background: linear-gradient(to bottom,  #c5f9c5 0%,#eef8ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5f9c5', endColorstr='#eef8ee',GradientType=0 );
+}
+
+.advanced_addons_alert.advanced_addons_warning.advanced_addons_alert_grad {
+    background: #f8e5c3;
+    background: -moz-linear-gradient(top,  #f8e5c3 0%, #f6f1e8 100%);
+    background: -webkit-linear-gradient(top,  #f8e5c3 0%,#f6f1e8 100%);
+    background: linear-gradient(to bottom,  #f8e5c3 0%,#f6f1e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8e5c3', endColorstr='#f6f1e8',GradientType=0 );
+}
+
+.advanced_addons_alert.advanced_addons_danger.advanced_addons_alert_grad {
+    background: #fbc5c5;
+    background: -moz-linear-gradient(top,  #fbc5c5 0%, #f6f1e8 100%);
+    background: -webkit-linear-gradient(top,  #fbc5c5 0%,#f6f1e8 100%);
+    background: linear-gradient(to bottom,  #fbc5c5 0%,#f6f1e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbc5c5', endColorstr='#f6f1e8',GradientType=0 );
+}
+.advanced_addons_alert.advanced_addons_primary.advanced_addons_alert_grad span,
+.advanced_addons_alert.advanced_addons_success.advanced_addons_alert_grad span,
+.advanced_addons_alert.advanced_addons_warning.advanced_addons_alert_grad span,
+.advanced_addons_alert.advanced_addons_danger.advanced_addons_alert_grad span {
+    background: transparent;
+}
+/*Block capsul*/
+.advanced_addons_alert.capsul span {
+    width: 160px;
+    background: #ffffff !important;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.advanced_addons_alert.advanced_addons_alert_grad.capsul {
+    border-radius: 50px;
+}
+
+.advanced_addons_alert.capsul.advanced_addons_alert_grad span strong {
+    text-transform: uppercase;
+    display: inline-flex;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+/**/
+
+.advanced_addons_alert.advanced_addons_alert_underlined span {
+    background: transparent;
+}
+.advanced_addons_alert.advanced_addons_alert_underlined strong{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.advanced_addons_alert.advanced_addons_alert_underlined.advanced_addons_primary {
+    border-bottom: 3px solid #d2ebf7;
+}
+
+.advanced_addons_alert.advanced_addons_alert_underlined.advanced_addons_success {
+    border-bottom: 3px solid #d3efd4;
+}
+.advanced_addons_alert.advanced_addons_alert_underlined.advanced_addons_warning {
+    border-bottom: 3px solid #fbeed9;
+}
+.advanced_addons_alert.advanced_addons_alert_underlined.advanced_addons_danger {
+    border-bottom: 3px solid #f6e5e5;
+}
+
+@media (max-width: 576px){
+    .advanced_addons_alert.capsul.advanced_addons_alert_grad span strong {
+        margin-left: 6px;
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .advanced_addons_alert span i {
+        font-size: 12px;
+    }
+}

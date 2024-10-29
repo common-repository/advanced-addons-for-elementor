@@ -1,0 +1,41 @@
+/*-------------------------------------------------
+    // Devider Blocks
+-------------------------------------------------*/
+
+.advanced_addons_devider.type-1 .advanced_addons_devider_line {
+    position: absolute;
+    border-bottom: 1px solid #dedede;
+    bottom: 0;
+    width: 100%;
+}
+
+.advanced_addons_devider.type-1 .advanced_addons_devider_line::before {
+    content: "";
+}
+
+.advanced_addons_devider.type-1 .advanced_addons_devider_line::before,.advanced_addons_devider.type-1 .advanced_addons_devider_line::after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #dedede;
+    bottom: -8px;
+    transform: rotate(-45deg);
+    background: #ffffff;
+}
+
+.advanced_addons_devider.type-1 .advanced_addons_devider_line::after {
+    left: 30px;
+}
+
+.advanced_addons_devider.type-1::after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #dedede;
+    bottom: -8px;
+    transform: rotate(-45deg);
+    left: 60px;
+    background: #ffffff;
+}

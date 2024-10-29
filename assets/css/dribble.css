@@ -1,0 +1,205 @@
+/*--------------------------------------
+    //Drible Blocks
+--------------------------------------*/
+.single-image {
+    flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    max-width: 25%;
+    padding: 5px;
+}
+
+.advanced_addons_dribble.type-1 img {
+    max-width: 100%;
+}
+
+.advanced_addons_dribble_images {
+    flex-wrap: wrap;
+}
+
+.advanced_addons_dribble.type-1 .advanced_addons_dribble_content i {
+    color: #dddddd;
+}
+
+.advanced_addons_dribble.type-1 .advanced_addons_dribble_content h5 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2f2f2f;
+    margin-bottom: 0;
+    padding: 16px 0 20px 0;
+}
+
+.advanced_addons_dribble.type-1 .advanced_addons_dribble_content p {
+    color: #727272;
+    margin-bottom: 33px;
+}
+
+/*-------------------------------------------
+    // Dribble Blocks Dark
+-------------------------------------------*/
+
+.dribble_block_area.dark .large-icon {
+    color: #020f19;
+    font-size: 828px;
+    top: -69px;
+    font-weight: 600;
+    left: -42px;
+}
+
+.advanced_addons_dribble.type-1.dark  .advanced_addons_dribble_content i {
+    color: #ea4c89;
+}
+
+.advanced_addons_dribble.type-1.dark  .advanced_addons_dribble_content p {
+    color: #8399aa;
+}
+
+.advanced_addons_dribble.type-1.dark  .advanced_addons_dribble_content  .advanced_addons_btn {
+    background: #ea4c89;
+}
+
+.advanced_addons_dribble_images.type-1.dark .single-image {
+    position: relative;
+}
+
+.advanced_addons_dribble_images.type-1.dark .single-image::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background: #ea4c89;
+    opacity: 0;
+    transform: scale(.90);
+    transition: all .30s linear;
+}
+
+.advanced_addons_dribble_images.type-1.dark .single-image:hover::before {
+    visibility: visible;
+    opacity: .70;
+    transform: scale(1);
+}
+/*--------------------------------------
+    // Dribble blocks - 4
+--------------------------------------*/
+.advanced_addons_dribble_images.type-1.low-gap .single-image {
+    flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    max-width: 25%;
+    padding: 3px;
+}
+
+.advanced_addons_dribble_area.type-2 .block-head {
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+.advanced_addons_dribble_area.type-2 .block-head .inner {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.advanced_addons_dribble_area.type-2 .block-head h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #ea4c89;
+    display: inline-block;
+    position: relative;
+    padding: 35px 0;
+    z-index: 5;
+}
+
+.advanced_addons_dribble_area.type-2 .block-head h5 i {
+    font-size: 40px;
+    color: #f0f0f0;
+    position: absolute;
+    left: -25px;
+    top: 30px;
+    z-index: -1;
+}
+
+.advanced_addons_dribble_area.type-2 .block-footer {
+    margin-top: -4px;
+}
+
+.advanced_addons_dribble_area.type-2 .block-footer .inner {
+    background: #ffffff;
+    display: flex;
+    padding: 35px 45px;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.advanced_addons_dribble_area.type-2 .block-footer p {
+    margin: 0;
+}
+
+.advanced_addons_dribble_area.type-2 .block-footer .advanced_addons_btn {
+    margin-left: 75px;
+    background: #ea4c89;
+    border-color: #ea4c89;
+}
+
+.advanced_block_dribble_inner_block {
+    overflow: hidden;
+    margin-right: 0;
+}
+
+.advanced_addons_dribble_images.type-1.low-gap {
+    background: #ffffff;
+    margin-left: -3px;
+    margin-right: 0;
+    width: calc(100% + 6px);
+}
+
+.advanced_addons_dribble_images.type-1.dark.low-gap .single-image:hover::before {
+    left: 4px;
+    top: 4px;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+}
+
+.advanced_addons_dribble_area.type-2 .large-icon {
+    font-size: 808px;
+    right: -178px;
+    color: #e64382;
+    top: -185px;
+}
+@media (max-width: 767px){
+    .advanced_addons_dribble.type-1 img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .advanced_addons_dribble_content {
+    margin-bottom: 15px;
+}
+
+.advanced_addons_dribble_images.type-1.low-gap .single-image {
+    flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    max-width: 50%;
+}
+.advanced_addons_dribble_area.type-2 .block-footer .inner {
+    padding: 20px 35px;
+    flex-flow: column;
+}
+.advanced_addons_dribble_area.type-2 .block-footer .advanced_addons_btn {
+    margin-top: 25px;
+    margin-left: 0;
+}
+}
+
+@media (max-width: 576px){
+    .advanced_addons_dribble_images.type-1 .single-image {
+    flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    max-width: 50%;
+    padding: 5px;
+}
+}

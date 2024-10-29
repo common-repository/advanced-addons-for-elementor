@@ -1,0 +1,167 @@
+/*---------------------------------------
+    // Quotes Card
+----------------------------------------*/
+.advanced_addons_quotes_card blockquote {
+    margin-bottom: 0;
+}
+
+.advanced_addons_quotes_card.type-1 h5 {
+    font-size: 26px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.advanced_addons_quotes_card blockquote {
+    padding: 46px 53px 43px 75px;
+}
+
+.advanced_addons_quotes_card.type-1 p {
+    font-size: 16px;
+    font-style: italic;
+    color: #d6d6d6;
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------
+    // Start Qutoes card
+--------------------------------------------*/
+.advanced_addons_quotes_card.type-2 p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.advanced_addons_quotes_card.type-2 blockquote {
+    border-left: 10px solid #e5e5e5;
+    margin-bottom: 0;
+}
+
+.advanced_addons_quotes_card.type-2 blockquote span {
+    color: #747474;
+    font-size: 16px;
+}
+
+.advanced_addons_quotes_card.type-2 blockquote {
+    padding: 40px 26px 45px 64px;
+}
+
+/*------------------------------------------
+    // Quotes Card
+------------------------------------------*/
+.advanced_addons_quotes_card.type-3 h5 {
+    color: #393939;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+}
+
+.advanced_addons_quotes_card.type-3 h5 .large-icon {
+    position: absolute;
+    color: #ffe35e;
+    font-size: 100px;
+    z-index: -1;
+    top: 10px;
+}
+
+.advanced_addons_quotes_card.type-3 p {
+    position: relative;
+    z-index: 50;
+    font-size: 16px;
+    color: #63571e;
+}
+
+.advanced_addons_quotes_card.type-3 span {
+    font-size: 17px;
+    color: #393939;
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+}
+
+.advanced_addons_quotes_card.type-3 span::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ffe829;
+    z-index: -1;
+    top: 8px;
+}
+
+/*--------------------------------------------
+    // Blocks quotes type - 4
+--------------------------------------------*/
+.advanced_addons_quotes_card.type-4 {
+    border-radius: 20px;
+}
+
+.advanced_addons_quotes_card.type-4 p {
+    color: #747474;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.advanced_addons_quotes_card.type-1 .quotes-icon {
+    position: absolute;
+    font-size: 16px;
+    top: 10px;
+    left: -25px;
+}
+
+.advanced_addons_quotes_card.type-4 blockquote {
+    padding: 48px 48px;
+}
+
+.advanced_addons_quotes_card.type-4 .advanced_addons_quotes_icon {
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    border: 5px solid #f6f9fa;
+    position: absolute;
+    top: -28px;
+    background: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #bcc3c6;
+    font-size: 19px;
+    left: 14px;
+}
+
+.advanced_addons_quotes_card.type-4 span {
+    color: #5a5a5a;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .advanced_addons_quotes_card blockquote {
+        padding: 30px 35px 30px 50px;
+    }
+
+    .advanced_addons_quotes_card.type-1 h5 {
+        font-size: 22px;
+    }
+
+    .advanced_addons_quotes_card.type-1 p {
+        font-size: 14px;
+    }
+
+    .advanced_addons_quotes_card.type-2 blockquote {
+        padding: 20px 26px 25px 30px;
+    }
+
+    .advanced_addons_quotes_card.type-4 blockquote {
+        padding: 40px 40px;
+    }
+
+}
+
+@media (max-width: 576px){
+    .advanced_addons_quotes_card blockquote {
+    padding: 30px 21px 30px 30px;
+}
+.advanced_addons_quotes_card.type-2 blockquote {
+    padding: 35px 15px 35px 30px;
+}
+}

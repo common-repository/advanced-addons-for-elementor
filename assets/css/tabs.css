@@ -1,0 +1,312 @@
+/*-----------------------------------------------
+    // Tab
+-----------------------------------------------*/
+.advanced_addons_tab.type-2.heading-bg .advanced_addons_tab_content {
+    background: #ffffff;
+    border-radius: 0 !important;
+}
+
+.advanced_addons_tab.type-2.heading-bg {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .10);
+}
+
+.advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_head {
+    padding-bottom: 40px;
+}
+
+.advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_head::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(65, 65, 65, .80);
+}
+
+.advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_item .tab-link:first-child {
+    border-radius: 0px !important;
+}
+
+.advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_item {
+    border-radius: 0 !important;
+    background: transparent;
+    border: none;
+}
+
+.advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_item .tab-link.active {
+    background: rgba(255, 255, 255, .15);
+    color: #ffcc47;
+}
+
+.advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_item .tab-link:not(:last-child), .advanced_addons_tab.type-2.heading-bg  .advanced_addons_tab_item .tab-link:not(:first-child) {
+    margin-right: 2px;
+}
+
+.advanced_addons_tab.type-2.heading-bg .advanced_addons_tab_item .tab-link:not(:last-child)::before {
+    background: #ffffff;
+    right: -2px;
+    top: 18px;
+}
+
+.advanced_addons_tab_item.heading-bg .tab-link.active::before {
+    background: #ffcc47 !important;
+    visibility: visible !important;
+}
+
+/*-----------------------------------------
+    // Tab -4
+-----------------------------------------*/
+.advanced_addons_tab.vertical {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_head {
+    width: 200px;
+    flex: 0 0 200px;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_content {
+    flex: 0 0 calc(100% - 200px);
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item .tab-link {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.advanced_addons_tab_area.type-3 {
+    background: #35eea2;
+    background: -moz-linear-gradient(left, #35eea2 1%, #35ee83 100%);
+    background: -webkit-linear-gradient(left, #35eea2 1%, #35ee83 100%);
+    background: linear-gradient(to right, #35eea2 1%, #35ee83 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#35eea2', endColorstr='#35ee83', GradientType=1);
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item .tab-link.active {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgba(255, 255, 255, .30);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .10);
+    border-bottom: transparent;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item .tab-link {
+    font-size: 14px;
+    color: #3b1d82;
+    border-bottom: 1px solid #26d88a;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_content.type-1 {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, .15);
+    margin-left: -6px;
+    z-index: 9;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item .tab-link:last-child {
+    border-bottom: 0;
+}
+
+.advanced_addons_tab.vertical.reverse {
+    flex-flow: row-reverse;
+}
+
+.advanced_addons_tab.vertical.reverse .advanced_addons_tab_head .advanced_addons_tab_item .tab-link.active {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.advanced_addons_tab.vertical.reverse .advanced_addons_tab_content {
+    margin-right: -6px;
+    margin-left: 0;
+}
+
+.advanced_addons_tab.vertical .advanced_addons_tab_item .tab-link:not(:last-child)::before {
+    visibility: hidden;
+}
+
+
+
+/*-----------------------------------------
+    // Advanced Tab Blocks
+-----------------------------------------*/
+.advanced_addons_tab_item.row.no-gutters .tab-link {
+    color: #2f2f2f;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+.advanced_addons_tab_item.row.no-gutters .tab-link.active {
+    background: #ffffff;
+}
+
+.advanced_addons_tab_content.type-1 {
+    background: #fff;
+    padding: 40px  40px 40px 40px;
+}
+
+.advanced_addons_tab_item.row.no-gutters .tab-link {
+    position: relative;
+}
+
+.advanced_addons_tab_item.row.no-gutters .tab-link:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    right: -1px;
+    top: 10px;
+    width: 2px;
+    background: #eeeeee;
+    height: 20px;
+}
+
+.advanced_addons_tab_item.row.no-gutters .tab-link.active::before {
+    visibility: hidden;
+}
+
+/*----------------------------------------
+    // Tabe -2
+----------------------------------------*/
+.advanced_addons_tab.type-2 {
+    border-radius: 5px;
+}
+
+.advanced_addons_tab.type-2 .advanced_addons_tab_content {
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+
+.advanced_addons_tab.type-2 .advanced_addons_tab_item {
+    background: #f1f1f1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #f1f1f1;
+}
+
+.advanced_addons_tab.type-2 .advanced_addons_tab_item .tab-link {
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(0,0,0,.10);
+}
+
+.advanced_addons_tab.type-2 .advanced_addons_tab_item .tab-link.active {
+    background: #f1f1f1;
+}
+
+.advanced_addons_tab.type-2 .advanced_addons_tab_item .tab-link:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.advanced_addons_tab.type-2 .advanced_addons_tab_item .tab-link:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+/*---------------------------------------------------------
+    // Advanced Blocks type -3
+---------------------------------------------------------*/
+.advanced_addons_bullets {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.advanced_addons_bullets li {
+    flex: 0 0 50%;
+    position: relative;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.advanced_addons_bullets li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 11px;
+    width: 11px;
+    background: #ff057c;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.30);
+}
+.advanced_addons_tab_area.type-3.grad-bg::before {
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 0;
+    width: 382px;
+    height: 433px;
+    border-radius: 50%;
+    background: #35eea2;
+    background: -moz-linear-gradient(left,  #35eea2 0%, #35ee83 100%);
+    background: -webkit-linear-gradient(left,  #35eea2 0%,#35ee83 100%);
+    background: linear-gradient(to right,  #35eea2 0%,#35ee83 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35eea2', endColorstr='#35ee83',GradientType=1 );
+    opacity: .15;
+    box-shadow: 0px 9px 10px rgba(0,0,0,.47);
+    transform: rotate(-40deg);
+}
+@media (min-width:768px) and (max-width:991px) {
+    .advanced_addons_tab_item.row.no-gutters .tab-link {
+        font-size: 14px;
+        line-height: 55px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .advanced_addons_tab.type-2.heading-bg .advanced_addons_tab_item {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .advanced_addons_tab.type-2 .advanced_addons_tab_item .tab-link {
+        font-size: 14px;
+    }
+
+    .advanced_addons_tab_item.row.no-gutters .tab-link {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:575px) {
+    .advanced_addons_tab_item.row.no-gutters.type-1 .tab-link {
+        flex: 0 0 calc(50% - 2px);
+    }
+
+    .advanced_addons_tab.vertical {
+        flex-flow: column;
+    }
+
+    .advanced_addons_tab.vertical .advanced_addons_tab_head {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item .tab-link.active {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .advanced_addons_tab.vertical .advanced_addons_tab_head .advanced_addons_tab_item .tab-link {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+}

@@ -1,0 +1,275 @@
+.advanced_addons_accordion_body{
+	display: none;
+}
+.advanced_addons_accordion_title{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+
+.advanced_addons_accordion.type-1 .advanced_addons_accordion_title {
+    position: relative;
+}
+
+.advanced_addons_accordion.type-1 {
+    margin-bottom: 30px;
+}
+
+.advanced_addons_accordion.type-1 .advanced_addons_accordion_body {}
+
+.advanced_addons_accordion.type-1 .advanced_addons_accordion_body p {
+    color: #727272;
+    line-height: 30px;
+}
+
+.advanced_addons_accordion.type-1 .showed {
+    display: none;
+}
+
+.advanced_addons_accordion.type-1 .accordion_icon i {
+    color: #b4b4b4;
+    font-size: 14px;
+}
+
+.advanced_addons_accordion_title {
+    margin-bottom: 17px;
+}
+
+.advanced_addons_accordion.type-1 .advanced_addons_accordion_title::before {
+    content: "";
+    position: absolute;
+    right: 25px;
+    width: calc(100% - 275px);
+    height: 1px;
+    background: #e2e2e2;
+}
+
+.advanced_addons_accordion.type-1.show  .advanced_addons_accordion_title::before {
+    background: #cae9f8;
+}
+.advanced_addons_accordion.type-1.show .advanced_addons_accordion_title h6{
+	color: #31708f !important;
+}
+.advanced_addons_accordion.type-1.show .accordion_icon i {
+    color: #31708f;
+}
+
+.advanced_addons_accordion.type-1.show .accordion_icon .default {
+    display: none;
+}
+
+.advanced_addons_accordion.type-1.show .accordion_icon .showed {
+    display: block;
+}
+
+.advanced_addons_accordion_title {
+    cursor: pointer;
+}
+/*------------------------------------------------
+------------------------------------------------*/
+.advanced_addons_accordion.type-1.line-bordered.show {
+    background: #505DFF;
+    padding: 20px 35px 30px 35px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.05);
+    border-bottom-color: transparent;
+}
+.advanced_addons_accordion.type-1.single-line.line-bordered {
+    background: #ffffff;
+}
+.advanced_addons_accordion.type-1.single-line.line-bordered.show {
+    background: #4A57FF;
+}
+
+.advanced_addons_accordion.type-1.line-bordered .advanced_addons_accordion_title::before {
+    display: none;
+}
+
+.advanced_addons_accordion.type-1.show.line-bordered  .advanced_addons_accordion_title h6 {
+    color: #ffffff !important;
+}
+
+.advanced_addons_accordion.type-1.line-bordered  .advanced_addons_accordion_title h6 {
+    font-weight: 600;
+}
+
+.advanced_addons_accordion.type-1.line-bordered {
+    padding: 0px 35px 0px 35px;
+    border-bottom: 1px solid #5965ff;
+    margin-bottom: 0;
+    background: #4A57FF;
+}
+
+.advanced_addons_accordion.type-1.line-bordered .advanced_addons_accordion_body p {
+    color: #ffffff;
+}
+
+.advanced_addons_accordion.type-1.show.line-bordered .accordion_icon .showed {
+    color: #ffffff;
+}
+
+.advanced_addons_accordion.type-1.line-bordered .advanced_addons_accordion_title {
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.advanced_addons_accordion.type-1.line-bordered.show  .advanced_addons_accordion_title {
+    border-bottom: transparent;
+    margin-bottom: 10px;
+}
+
+.advanced_addons_accordion.type-1.line-bordered .accordion-circle {
+    height: 550px;
+    width: 550px;
+    border: 100px solid rgba(255,255,255,.03);
+    border-radius: 50%;
+}
+
+.advanced_addons_accordion.type-1.line-bordered .accordion-circle:nth-child(1) {
+    left: -292px;
+    top: 387%;
+    transform: translateY(-50%);
+}
+
+.advanced_addons_accordion.type-1.line-bordered .accordion-circle:nth-child(2) {
+    right: -155px;
+    top: calc(100% - 188px);
+    height: 450px;
+    width: 450px;
+    border-width: 70px;
+}
+/*--------------------------------------------
+--------------------------------------------*/
+.advanced_addons_accordion.type-1.single-line .accordion_icon i {
+    color: #4A57FF;
+}
+
+.advanced_addons_accordion.type-1.line-bordered.single-line   .advanced_addons_accordion_title h6 {
+    font-weight: 400;
+    color: #505DFF;
+}
+
+/*----------------------------------------------
+	// Accordion css
+----------------------------------------------*/
+.advanced_addons_accordion.type-1.line-bordered.show.boxed-style {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,.30);
+}
+.advanced_addons_accordion.type-1.show.line-bordered.boxed-style   .advanced_addons_accordion_title h6 {
+    color: #c96ac6 !important;
+}
+
+.advanced_addons_accordion.type-1.line-bordered.boxed-style  .advanced_addons_accordion_body p {
+    color: #727272 !important;
+}
+
+.advanced_addons_accordion.type-1.show.line-bordered.boxed-style  .accordion_icon .showed {
+    color: #c96ac6 !important;
+}
+
+.advanced_addons_accordion.type-1.boxed-style.line-bordered {
+    background: #626CDD;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.advanced_addons_accordion.type-1.boxed-style .accordion_icon i {
+    color: #ffffff !important;
+}
+
+.advanced_addons_accordion.type-1.line-bordered.boxed-style  .advanced_addons_accordion_title {
+    line-height: 60px;
+}
+
+.advanced_addons_accordion.type-1.line-bordered.boxed-style  .advanced_addons_accordion_title h6 {
+    font-size: 23px;
+}
+
+/*-----------------------------------------------
+	//Liquid Animation
+-----------------------------------------------*/
+.advanced_addons_accordion.type-4.liquid{
+	background: #a616ff;
+	background: -moz-linear-gradient(left,  #a616ff 0%, #524bff 100%);
+	background: -webkit-linear-gradient(left,  #a616ff 0%,#524bff 100%);
+	background: linear-gradient(to right,  #a616ff 0%,#524bff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a616ff', endColorstr='#524bff',GradientType=1 );
+}
+
+
+.advanced_addons_accordion.type-1.boxed-style.grad.line-bordered {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.advanced_addons_accordion.type-1.boxed-style.grad.line-bordered.show {
+    background: rgba(248,248,251,.10);
+    padding: 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.10);
+}
+
+.advanced_addons_accordion.type-1.boxed-style.grad.line-bordered .advanced_addons_accordion_title h6 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.advanced_addons_accordion.type-1.boxed-style.grad.line-bordered .accordion_icon {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.10);
+}
+
+.advanced_addons_accordion.type-1.line-bordered.boxed-style.grad   .advanced_addons_accordion_title {
+    padding: 0 40px;
+    background: #a84eff;
+background: -moz-linear-gradient(-45deg,  #a84eff 0%, #8465ff 100%);
+background: -webkit-linear-gradient(-45deg,  #a84eff 0%,#8465ff 100%);
+background: linear-gradient(135deg,  #a84eff 0%,#8465ff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a84eff', endColorstr='#8465ff',GradientType=1 );
+margin-bottom: 0;
+
+}
+
+.advanced_addons_accordion.type-1.line-bordered.boxed-style.grad.show    .advanced_addons_accordion_title h6 {
+    color: #ffea37 !important;
+}
+
+.advanced_addons_accordion.type-1.line-bordered.boxed-style.grad.show    .advanced_addons_accordion_title {
+    background: #2c2d50;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.advanced_addons_accordion.type-1.show.line-bordered.boxed-style.grad   .accordion_icon .showed {
+    color: #ffffff !important;
+}
+
+.advanced_addons_accordion.type-1.boxed-style.grad.line-bordered .advanced_addons_accordion_body p {
+    color: #ffffff !important;
+}
+
+.advanced_addons_accordion.type-1.show.line-bordered.boxed-style.grad   .accordion_icon {
+    background: #212243;
+}
+.advanced_addons_accordion.type-1.boxed-style.grad.line-bordered .advanced_addons_accordion_body {
+    padding: 18px 40px 28px 40px;
+    background: #a84eff;
+    background: -moz-linear-gradient(-45deg,  #a84eff 0%, #8465ff 100%);
+    background: -webkit-linear-gradient(-45deg,  #a84eff 0%,#8465ff 100%);
+    background: linear-gradient(135deg,  #a84eff 0%,#8465ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a84eff', endColorstr='#8465ff',GradientType=1 );
+
+}

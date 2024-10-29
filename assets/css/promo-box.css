@@ -1,0 +1,132 @@
+/*------------------------------------------
+    // Promo Box
+------------------------------------------*/
+
+.advanced_addons_promo_box.type-1 {
+    box-shadow: 0px 33px 150px rgba(144,0,255,.10);
+    padding: 55px 80px 55px 80px;
+}
+
+.advanced_addons_promo_box.type-1 h5 {
+    margin-bottom: 15px;
+}
+
+/**/
+
+.advanced_addons_promo_box.type-1.radius-style {
+    box-shadow: 0px 33px 150px rgba(0,209,178,.10);
+}
+
+.advanced_addons_promo_box.type-1.radius-style h5 {
+    color: #00d1b2;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.advanced_addons_promo_box.type-1.radius-style .advanced_addons_btn {
+    background: #00d1b2;
+    border-radius: 6px;
+    border-color: #00d1b2;
+}
+/*Promo Box*/
+.advanced_addons_callto_action_area.type-2 .overlay{
+    background: #952877;
+    background: -moz-linear-gradient(left,  #952877 0%, #ff714d 100%);
+    background: -webkit-linear-gradient(left,  #952877 0%,#ff714d 100%);
+    background: linear-gradient(to right,  #952877 0%,#ff714d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#952877', endColorstr='#ff714d',GradientType=1 );
+    opacity: .95;
+}
+.advanced_addons_callto_action.type-2 h4 {
+    font-size: 32px;
+}
+
+.advanced_addons_callto_action.type-2  .advanced_addons_btn_bordered {
+    border-color: #f27054;
+    border-width: 2px;
+    color: #ffffff;
+}
+
+.advanced_addons_callto_action.type-2  .advanced_addons_btn_solid {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #e36b4d;
+    margin-left: 30px;
+}
+
+.advanced_addons_callto_action.type-2 p {
+    margin-bottom: 34px;
+}
+
+/*Advanced Blocks call to action Promo Box*/
+
+
+.advanced_addons_callto_action.type-2.promo-box
+ h4 {
+    font-weight: 400;
+    color: #504c6c;
+    position: relative;
+    z-index: 9;}
+
+.advanced_addons_callto_action.type-2.promo-box p {
+    color: #6f6c83;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_addons_callto_action.type-2.promo-box .advanced_addons_btn {
+    background: #0647a7;
+    color: #ffffff;
+    margin-left: 0;
+}
+/*Promo box*/
+.advanced_addons_callto_action.type-2.promo-box.transparent {
+    background: rgba(240,244,112,.95);
+    border-radius: 26px;
+    padding: 50px 50px 50px 50px;
+}
+
+.advanced_addons_callto_action.type-2.promo-box.transparent .advanced_addons_btn {
+    border-color: transparent;
+    position: relative;
+    z-index: 9;
+}
+.advanced_addons_callto_action.type-2.promo-box.transparent .bg-icon {
+    color: #a95400;
+    font-size: 449px;
+    top: -192px;
+    left: -55px;
+    transform: rotate(11deg);
+    opacity: .13;
+}
+
+@media (max-width: 767px){
+    /*BOx -1 */
+    .advanced_addons_promo_box.type-1 {
+        padding: 20px 20px 20px 20px;
+        flex-flow: column;
+        text-align: center;
+    }
+    .advanced_addons_promo_box.type-1 > div:first-child {
+        margin-bottom: 15px;
+    }
+    .advanced_addons_callto_action.type-2 h4 {
+        font-size: 24px;
+    }
+    .advanced_addons_callto_action.type-2 p {
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 576px){
+    .advanced_addons_callto_action.type-2 .advanced_addons_btn_solid {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .advanced_addons_callto_action.type-2.promo-box .advanced_addons_btn {
+        margin-bottom: 20px;
+    }
+    .advanced_addons_callto_action.type-2.promo-box.transparent {
+        padding: 40px 30px 20px 30px;
+    }
+}

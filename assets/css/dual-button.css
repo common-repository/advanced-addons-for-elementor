@@ -1,0 +1,81 @@
+/*-----------------------------------------------
+    // Dual Button
+-----------------------------------------------*/
+.advanced_addons_button_group a + a,
+.advanced_addons_button_group button + button {
+    margin-left: -3px;
+}
+.advanced_addons_button_group.btn_rounded
+ a:first-child,
+.advanced_addons_button_group.btn_rounded
+ button:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.advanced_addons_button_group.btn_rounded
+ a + a,
+.advanced_addons_button_group.btn_rounded
+ button + button {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.advanced_addons_button_group.btn_pill a:first-child,
+.advanced_addons_button_group.btn_pill button:first-child {
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+}
+.advanced_addons_button_group.btn_pill a + a,
+.advanced_addons_button_group.btn_pill button + button {
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+}
+
+
+.advanced_addons_button_group {
+    position: relative;
+    display: inline-flex;
+}
+
+.advanced_addons_button_group .button_group_icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f2f2f;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+
+.advanced_addons_button_group.btn_rounded
+ .button_group_icon {
+    border-radius: 4px;
+}
+
+.advanced_addons_button_group.btn_pill .button_group_icon {
+    border-radius: 50%;
+}
+.advanced_addons_button_group.button_seperated a + a,
+.advanced_addons_button_group.button_seperated button + button {
+    margin-left: 30px;
+}
+
+.advanced_addons_button_group.button_seperated .btn_default {
+    min-width: 150px;
+}
+
+/*---------------------------------------------
+    // 
+---------------------------------------------*/
+@media (max-width: 576px){
+    .advanced_addons_button_group.button_seperated .btn_default {
+    min-width: 130px;
+}
+.advanced_addons_button_group.button_seperated button + button {
+    margin-left: 15px;
+}
+}

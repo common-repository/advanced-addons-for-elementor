@@ -1,0 +1,326 @@
+
+/*-------------------------------------------
+    //Social Links
+-------------------------------------------*/
+.advanced_addons_social_links.type-1 {
+    box-shadow: 0px 0px 50px rgba(0,0,0,.12);
+}
+
+.advanced_addons_social_links.type-1 .block-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px 25px 40px;
+    align-items: center;
+}
+
+
+.advanced_addons_social_links.type-1 .block-body {
+    padding: 60px 0 50px 0;
+}
+
+.advanced_addons_social_links.type-1 ul li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.advanced_addons_social_links.type-1 ul li .block_icon {
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 3px;
+    color: #727272;
+}
+
+.advanced_addons_social_links.type-1 ul li .block_label {
+    color: #2f2f2f;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 25px;
+    min-width: 190px;
+    text-align: left;
+}
+
+.advanced_addons_social_links.type-1 ul li .block_link {
+    color: #727272;
+    font-size: 14px;
+}
+
+.advanced_addons_btn.btn_md {
+    line-height: 36px;
+    font-size: 14px;
+    min-width: 113px;
+    border-radius: 3px;
+}
+
+
+/*---------------------------------------------
+    // Icon style - Gradient
+---------------------------------------------*/
+.advanced_addons_social_links.type-1.grad-style .block-body {
+    padding: 40px 0 40px 0;
+}
+
+.advanced_addons_social_links.type-1.grad-style ul li {
+    border-radius: 30px;
+    background: rgba(255,255,255,.10);
+    transition: all .30s linear;
+    position: relative;
+    overflow: hidden;
+}
+
+.advanced_addons_social_links.type-1.grad-style .block-head {
+    padding-bottom: 0;
+    flex-flow: column;
+}
+
+.advanced_addons_social_links.type-1.grad-style .block-head p {
+    margin-bottom: 0;
+}
+
+.advanced_addons_social_links.type-1.grad-style {
+    padding: 43px 0 31px 0;
+    border-radius: 30px;
+    background: #fa3273;
+    background: -moz-linear-gradient(-45deg,  #fa3273 0%, #ffa763 100%);
+    background: -webkit-linear-gradient(-45deg,  #fa3273 0%,#ffa763 100%);
+    background: linear-gradient(135deg,  #fa3273 0%,#ffa763 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa3273', endColorstr='#ffa763',GradientType=1 );
+}
+
+.advanced_addons_social_links.type-1.grad-style  ul li .block_icon {
+    border-radius: 50%;
+    position: relative;
+}
+
+.advanced_addons_social_links.type-1.grad-style ul li .block_label,.advanced_addons_social_links.type-1.grad-style ul li .block_link {
+    color: #ffffff;
+}
+
+.advanced_addons_social_links.type-1.grad-style ul li:hover {
+    box-shadow: 0px 7px 15px rgba(0,0,0,.05);
+}
+
+.advanced_addons_social_links.type-1.grad-style ul li .hover-icon {
+    color: #fff;
+    font-size: 35px;
+    right: 22px;
+    opacity: .10;
+    top: 11px;
+}
+
+.advanced_addons_social_links.type-1.grad-style  ul li .block_icon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    to]:;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: all .30s linear;
+}
+
+@keyframes scaleZoom{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.3);
+    }
+} 
+
+.advanced_addons_social_links.type-1.grad-style  ul li:hover .block_icon::before {
+    animation: scaleZoom .50s linear infinite;
+    
+}
+
+.advanced_addons_social_links.type-1.grad-style ul li.social_icon_blank {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.80);
+}
+/*------------------------------------
+    // Social liniks
+------------------------------------*/
+.advanced_addons_social_links_area.type-2 .overflow{
+    background: #af2dff;
+    background: -moz-linear-gradient(-45deg,  #af2dff 0%, #4eb4fe 100%);
+    background: -webkit-linear-gradient(-45deg,  #af2dff 0%,#4eb4fe 100%);
+    background: linear-gradient(135deg,  #af2dff 0%,#4eb4fe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af2dff', endColorstr='#4eb4fe',GradientType=1 );
+    opacity: .9;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+/*-------------------------------------------
+    // Social links
+-------------------------------------------*/
+.top-shape svg,.bottom-shape svg {
+    height: 58px;
+}
+
+.advanced_addons_social_links.type-2  .top-shape, .advanced_addons_social_links.type-2 .bottom-shape {
+    bottom: calc(100% - 2px);
+    left: calc(50% - 218px);
+    width: 100px;
+}
+/*.advanced_addons_social_links.type-2 .main-content:nth-child(1)  .top-shape{
+    background: #712;
+}*/
+.advanced_addons_social_links.type-2 .top-shape svg {
+    margin-left: -74px;
+    position: absolute;
+    margin-top: -19px;
+}
+
+.advanced_addons_social_links.type-2 .main-content {
+    padding: 50px 80px;
+    background: #ffffff;
+    border-radius: 12px;
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+
+.advanced_addons_social_links.type-2 .icon-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-58%,-24%);
+    top: 47%;
+    z-index: 99;
+    position: relative;
+}
+.advanced_addons_social_links.type-2 .main-content .icon-circle  {
+    background: #3d3d48;
+}
+.advanced_addons_social_links.type-2 .main-content.active .icon-circle.fb  {
+    background: #4267b2 !important;
+    color: #ffffff !important;
+}
+.advanced_addons_social_links.type-2 .main-content.active .icon-circle.fb  i{
+    color: #fff !important;
+}
+.advanced_addons_social_links.type-2 .main-content.active .icon-circle.twt  {
+    background: #1da1f2 !important;
+    color: #ffffff !important;
+}
+.advanced_addons_social_links.type-2 .main-content.active .icon-circle.inst {
+    background: #eb5a50 !important;
+    
+}
+.advanced_addons_social_links.type-2 .main-content.active .icon-circle.inst i{
+    color: #ffffff !important;
+}
+/*.advanced_addons_social_links.type-2 .main-content.active .icon-circle.inst {
+    background: #ffffff !important;
+    color: #3d3d48 !important;
+}*/
+.advanced_addons_social_links.type-2 .bottom-shape {
+    top: calc(100% - 1px);
+    left: calc(50%);
+    transform: translateX(-50%);
+    display: inline-block;
+    width: initial;
+}
+
+.advanced_addons_social_links.type-2 .main-content .social-link-name {
+    width: 250px;
+}
+
+.advanced_addons_social_links.type-2 .main-content .social-link-name h6 {
+    color: #2d2e39;
+    font-size: 18px;
+}
+
+.advanced_addons_social_links.type-2 .main-content a {
+    font-size: 16px;
+    color: #777777;
+}
+.advanced_addons_social_links.type-2 {
+    padding: 63px 0;
+    width: 100%;
+}
+
+.advanced_addons_social_links.type-2 .main-content:nth-child(2) .top-shape {
+    left: calc(50% - 120px);
+    bottom: calc(100% - 2px);
+}
+
+.advanced_addons_social_links.type-2 .main-content:nth-child(3) .top-shape {
+    left: calc(50% - 22px);
+    bottom: calc(100% - 2px);
+}
+
+.advanced_addons_social_links.type-2 .main-content:nth-child(4) .top-shape {
+    left: calc(50% - -68px);
+    bottom: calc(100% - 2px);
+}
+
+.top-shape .st0 {
+    fill: #2d2e39;
+    filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.70));
+}
+.advanced_addons_social_links.type-2 .main-content .st0{
+    transition: all .40s linear;
+}
+.advanced_addons_social_links.type-2 .main-content.active .st0 {
+    fill: #fff;
+}
+
+.advanced_addons_social_links.type-2 .main-content.active, .advanced_addons_social_links.type-2 .main-content.active  .social-link-name,.advanced_addons_social_links.type-2 .main-content.active .social-link-url {
+    visibility: visible;
+    opacity: 1;
+}
+.advanced_addons_social_links.type-2 .main-content.active {
+    z-index: 9;
+}
+
+.advanced_addons_social_links.type-2 .main-content:hover {}
+
+.main-content .social-link-name,.main-content .social-link-url {
+    visibility: hidden;
+    opacity: 0;
+}
+.advanced_addons_social_links_area.type-2 p,
+.advanced_addons_social_links_area.type-2 h3{
+    color: #fff;
+}
+/*-------------------------------------------
+    // Social Links Grad Style
+-------------------------------------------*/
+@media (max-width: 991px) and (min-width: 768px){
+    .advanced_addons_social_links.type-1 ul li .block_label {
+        margin-left: 13px;
+        min-width: 84px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px){
+    .advanced_addons_social_links.type-1 ul li {
+        padding: 10px;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .advanced_addons_social_links.type-1 ul li .block_label {
+        text-align: center;
+        margin-left: initial;
+    }
+}

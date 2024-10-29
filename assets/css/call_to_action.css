@@ -1,0 +1,26 @@
+.advanced_addons_callto_action.type-1 h4 {
+	font-size: 28px;
+	color: #2f2f2f;
+	margin-bottom: 13px
+}
+
+.advanced_addons_callto_action.type-1 p {
+	margin-bottom: 35px
+}
+
+.advanced_addons_callto_action.type-1 button+button {
+	margin-left: 30px
+}
+
+@media (max-width: 767px){
+	.advanced_addons_callto_action.type-1 p {
+	    margin-bottom: 20px;
+	}
+}
+@media (max-width:575px) {
+	.advanced_addons_callto_action.type-1 button+button {
+		margin-left: 0;
+		margin-top: 20px
+	}
+
+}

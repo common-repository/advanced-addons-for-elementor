@@ -1,0 +1,22 @@
+/*-------------------------------------------
+    // Tables
+-------------------------------------------*/
+.advaced_addons_table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.advaced_addons_table td, .advaced_addons_table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #f9f9f9;
+}
+
+.advaced_addons_table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #f9f9f9;
+}
+.advaced_addons_table.hoverable tr:hover {
+    box-shadow: 0 0 7px rgba(0,0,0,.050);
+}

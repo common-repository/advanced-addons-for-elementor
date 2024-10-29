@@ -1,0 +1,108 @@
+/*-------------------------------------
+    //Countdown 
+-------------------------------------*/
+.advanced_addons_countdown.type-1 {
+    border: 1px solid #f1f1f1;
+    border-radius: 100px;
+}
+
+.advanced_addons_countdown.type-1 > span {
+    flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    font-size: 35px;
+    color: #2f2f2f;
+    font-weight: 600;
+    position: relative;
+    line-height: 35px;
+    padding: 28px 0;
+}
+
+.advanced_addons_countdown.type-1 > span > span {
+    display: block;
+    font-size: 16px;
+    color: #878787;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+
+.advanced_addons_countdown.type-1 > span::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 2px;
+    height: calc(100% - 60px);
+    background: #f1f1f1;
+}
+
+.advanced_addons_countdown.type-1 > span:last-child::before {
+    display: none;
+}
+/*--------------------------------------
+    //Block Cover
+--------------------------------------*/
+.advanced_block_cover.type-1{
+    height: 334px;
+}
+/*-----------------------------------------------
+    //Comming Soon
+-----------------------------------------------*/
+.advanced_addons_comming_soon.type-1 .block-content {
+    margin-bottom: -126px;
+    border: 1px solid #eeeeee;
+    position: relative;
+}
+
+.advanced_addons_comming_soon.type-1 .advanced_addons_countdown.type-1 > span > span {
+    text-transform: uppercase;
+}
+
+.advanced_addons_comming_soon.type-1 .advanced_addons_countdown.type-1 {
+    background: rgba(255,255,255,.80);
+    border-radius: 0;
+}
+
+.advanced_addons_comming_soon.type-1 .block-content p {
+    margin-bottom: 0;
+}
+
+.advanced_addons_comming_soon.type-1 h2 {
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.advanced_addons_comming_soon.type-1 .block-content h4 {
+    display: inline-block;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    background: #ffffff;
+}
+/*-----------------------------------------
+-----------------------------------------*/
+@media (max-width: 576px){
+    .advanced_addons_comming_soon.type-1 .block-content h4 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .advanced_addons_comming_soon.type-1 h2 {
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .advanced_addons_search_box.type-1 {
+        padding: 60px 10px 60px 10px;
+    }
+    .advanced_addons_countdown.type-1 > span {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .advanced_addons_countdown.type-1 > span > span {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,306 @@
+/*--------------------------------------
+    // Fun Factors
+--------------------------------------*/
+
+.advanced_addons_funfactors_area.type-1 {
+    background-position: -58px -105px;
+}
+
+.advanced_addons_funfactors_area.type-1 .overlay {
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.84) 35%, rgba(0, 0, 0, 0.84) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.84) 35%, rgba(0, 0, 0, 0.84) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.84) 35%, rgba(0, 0, 0, 0.84) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#d6000000', GradientType=1);
+}
+
+.advanced_addons_funfactors_area.type-1 p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.advanced_addons_funfactors_area.type-1 h2 {
+    line-height: 57px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------
+    // Fun Factors
+-----------------------------------------*/
+.bg-f8fcfd {
+    background: #f8fcfd;
+}
+
+.advanced_addons_funfactors_area.type-2 .advanced_addons_funfactors_content {
+    border: 1px solid #d2e0e4;
+    position: relative;
+    padding: 18px 0;
+}
+
+.advanced_addons_funfactors_area.type-2 .advanced_addons_funfactors_content .blocks-icon {
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: -29px;
+    width: 90px;
+    transform: translateX(-50%);
+    background: #f8fcfd;
+    color: #c8c8c8;
+}
+
+.advanced_addons_funfactors_area.type-2 .advanced_addons_funfactors_content .block-text {
+    background: #f8fcfd;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -11px;
+    color: #434343;
+    width: 155px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.advanced_addons_funfactors_area.type-2 .advanced_addons_funfactors_content  h2 {
+    margin-bottom: 0;
+}
+
+/*Fun Factors*/
+.advanced_addons_funfactors_content.type-3 {
+    display: flex;
+    background: #0054ff;
+    border-radius: 6px;
+    flex-flow: row;
+    padding-right: 4px;
+}
+
+.advanced_addons_funfactors_content.type-3 .blocks-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0 25px;
+}
+
+.advanced_addons_funfactors_content.type-3 .block-content {
+    background: #ffffff;
+    flex: 1;
+    border-radius: 6px;
+    padding: 20px 0;
+}
+
+.advanced_addons_funfactors_content.type-3 .block-content h2 {
+    color: #0024ff;
+    line-height: 46px;
+}
+
+.advanced_addons_funfactors_content.type-3 .block-content span {
+    color: #6069c0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.advanced_addons_funfactors_area.type-3 .overlay {
+    background: #1447ea;
+    background: -moz-linear-gradient(left, #1447ea 15%, #03deec 100%);
+    background: -webkit-linear-gradient(left, #1447ea 15%, #03deec 100%);
+    background: linear-gradient(to right, #1447ea 15%, #03deec 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1447ea', endColorstr='#03deec', GradientType=1);
+    opacity: .9;
+}
+
+/*-----------------------------------
+    // Block Fun Factors
+-----------------------------------*/
+.advanced_addons_funfactors_content.type-4 .block-content {
+    display: inline-flex;
+    padding: 0 37px;
+    background: #ffffff;
+    width: calc(100% - 80px);
+    position: relative;
+    z-index: 9;
+    color: #27c332;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .10);
+}
+
+.advanced_addons_funfactors_content.type-4 span {
+    display: inline-block;
+    color: #ffffff;
+    padding: 0;
+    width: calc(100% - 80px);
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    z-index: 9;
+}
+
+.advanced_addons_funfactors_content.type-4 .overlay {
+    background: rgba(0, 0, 0, .70);
+}
+
+/*--------------------------------------------
+    FunFactors 5
+--------------------------------------------*/
+.advanced_addons_funfactors_wrapper.type-5 {
+    min-height: 455px;
+    width: 520px;
+}
+
+.advanced_addons_funfactors_wrapper.type-5 .single-counter-box .number {color: #fff;}
+.advanced_addons_funfactors_wrapper.type-5 .single-counter-box p {color: #fff;padding-top: 0;}
+.advanced_addons_funfactors_wrapper.type-5 .shape-dot {top:0;right: 0;}
+.advanced_addons_funfactors_wrapper.type-5 .dot-one {
+  width: 9px;
+  height: 9px;
+  top:-30px;
+  right: 35%;
+  animation: zoomInOut 3s infinite linear;
+}
+
+.advanced_addons_funfactors_wrapper.type-5 .img-shape{
+    position: absolute;
+    
+}
+.advanced_addons_funfactors_wrapper.type-5 .dot-two {
+  width: 26px;
+  height: 26px;
+  top:50px;
+  right: 30%;
+  animation: zoomInOut 9s infinite linear;
+}
+.advanced_addons_funfactors_wrapper.type-5 .dot-three {
+  width: 9px;
+  height: 9px;
+  top:53px;
+  right: 11%;
+  animation: zoomInOut 8s infinite linear;
+}
+.advanced_addons_funfactors_wrapper.type-5 .dot-four {
+  width: 20px;
+  height: 20px;
+  bottom: 90px;
+  right: 13%;
+  animation: zoomInOut 5s infinite linear;
+}
+.advanced_addons_funfactors_wrapper.type-5 .dot-five {
+  width: 9px;
+  height: 9px;
+  bottom: 64px;
+  right: 4%;
+  animation: zoomInOut 9s infinite linear;
+}
+.advanced_addons_funfactors_wrapper.type-5 .dot-six {
+  width: 30px;
+  height: 30px;
+  bottom: 128px;
+  left: 0;
+  animation: zoomInOut 5s infinite linear;
+}
+.advanced_addons_funfactors_wrapper.type-5 .dot-seven {
+  width: 11px;
+  height: 11px;
+  bottom: 170px;
+  left: 75px;
+  animation: zoomInOut 8s infinite linear;
+}
+.advanced_addons_funfactors_wrapper.type-5 span {line-height: 40px;display: inline-block;margin-bottom: 0;font-size: 52px;}
+
+.advanced_addons_funfactors_wrapper.type-5 h4 {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.advanced_addons_funfactors_wrapper.type-5 h2 {
+    line-height: 60px;
+}
+
+.advanced_addons_funfactors_wrapper.type-5  .advanced_addons_funfactors_content.cl-1 {
+    background: rgba(0,161,255,0.54);
+    top: 25px;
+    left: 50px;
+}
+.advanced_addons_funfactors_wrapper.type-5  .advanced_addons_funfactors_content {
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 25px 0px rgba(123,147,171,0.1);
+}
+.advanced_addons_funfactors_wrapper.type-5  .advanced_addons_funfactors_content.cl-2 {
+    background: rgba(255,173,58,0.67);
+    width: 246px;
+    height: 246px;
+    top: 210px;
+    left: 130px;
+    z-index: 1;
+}
+.advanced_addons_funfactors_wrapper.type-5  .advanced_addons_funfactors_content.cl-3 {
+        background: rgba(140,39,255,0.54);
+    width: 180px;
+    height: 180px;
+    top: 135px;
+    left: 290px;
+    z-index: 1;
+}
+.advanced_addons_funfactors_wrapper.type-5 .shape-dot {
+    top: 0;
+    right: 0;
+}
+.advanced_addons_funfactors_wrapper.type-5 .factors-icon {
+    font-size: 117px;
+    color: #fff;
+    opacity: .10;
+    top: 15%;
+    left: 11%;
+}
+/*-------------------------------------------
+    // Fun Factors
+-------------------------------------------*/
+@media (min-width:768px) and (max-width:991px) {
+    .advanced_addons_funfactors_content.type-3 {
+        margin-bottom: 20px;
+    }
+
+    .advanced_addons_funfactors_content.type-4 {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .advanced_addons_funfactors_area.type-1 h2 {
+        line-height: 36px;
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+
+    .advanced_addons_funfactors_content.type-1 {
+        margin: 15px 0;
+    }
+
+    .advanced_addons_funfactors_area.type-2 .advanced_addons_funfactors_content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .advanced_addons_funfactors_content.type-3 {
+        margin: 15px 0;
+    }
+
+    .advanced_addons_funfactors_content.type-4 {
+        margin: 15px 0;
+    }
+
+}

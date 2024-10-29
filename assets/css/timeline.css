@@ -1,0 +1,195 @@
+/*--------------------------------------------
+    // Timeline css
+--------------------------------------------*/
+.advanced_addons_timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-flow: column;
+}
+
+.timeline_item {
+    width: calc(50% - 40px);
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(2n+1) {
+    align-self: flex-start;
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(even) {
+    align-self: flex-end;
+    flex-flow: row !important;
+}
+
+.advanced_addons_timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 28px;
+    width: 1px;
+    height: 100%;
+    background: #ddd;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row-reverse;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item div {
+    text-align: right;
+    flex-basis: 1px;
+    flex: 1;
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(even) .timeline_item {
+    flex-flow: row-reverse;
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(even) div {
+    text-align: left;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item .timeline_icon {
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ededed;
+    border-radius: 50%;
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(2n+1) .timeline_item {
+    margin-left: 15px;
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(2n+1) .timeline_icon {
+    margin-left: 15px;
+    position: relative;
+}
+
+.advanced_addons_timeline .timeline_item:nth-child(even) .timeline_icon {
+    margin-right: 15px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item h4 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item:nth-child(even) .timeline_icon::after {
+    content: "";
+    width: 45px;
+    height: 1px;
+    border-bottom: 2px dashed #2f2f2f;
+    position: absolute;
+    left: -47px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    z-index: 3;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .10);
+}
+
+.advanced_addons_timeline.type-1 .timeline_item:nth-child(2n+1)::before {
+    background: #fff;
+    right: -51px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item::after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    background: #2f2f2f;
+    border-radius: 50%;
+    right: -44px;
+    top: 25px;
+    z-index: 10;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item:nth-child(even)::before {
+    left: -49px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item:nth-child(2n+1) .timeline_icon::after {
+    content: "";
+    width: 45px;
+    height: 1px;
+    border-bottom: 2px dashed #2f2f2f;
+    position: absolute;
+    right: -47px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item:nth-child(even)::after {
+    left: -43px;
+}
+
+.advanced_addons_timeline.type-1 .timeline_item:last-child {
+    margin-bottom: 0;
+}
+
+.advanced_addons_timeline.type-1::before {
+    height: calc(100% - 61px);
+}
+
+@media (max-width:767px) {
+    .advanced_addons_timeline.type-1 .timeline_item {
+        margin-bottom: 25px;
+    }
+
+    .advanced_addons_timeline .timeline_item:nth-child(2n+1) {
+        align-self: flex-end;
+        flex-flow: row !important;
+    }
+
+    .timeline_item {
+        width: calc(100% - 40px);
+    }
+
+    .advanced_addons_timeline.type-1::before {
+        height: calc(100% - 70px);
+    }
+
+    .advanced_addons_timeline::before {
+        left: 0;
+    }
+
+    .advanced_addons_timeline.type-1 .timeline_item div {
+        text-align: left;
+        flex-basis: 1px;
+        flex: 1;
+        margin-left: 0px;
+    }
+
+    .advanced_addons_timeline.type-1 .timeline_item:nth-child(2n+1)::before {
+        left: -49px;
+    }
+
+    .advanced_addons_timeline.type-1 .timeline_item:nth-child(2n+1) .timeline_icon::after {
+        left: -47px;
+    }
+
+    .advanced_addons_timeline.type-1 .timeline_item:nth-child(2n+1)::after {
+        left: -43px;
+    }
+
+    .advanced_addons_timeline .timeline_item:nth-child(2n+1) .timeline_icon {
+        margin-right: 15px;
+    }
+
+}
